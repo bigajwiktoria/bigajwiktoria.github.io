@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<htmllang="en">
+    <html>
+<head>
+	<title> The Importance of User Experience Design in the Healthcare System</title>
+     <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap" rel="stylesheet">
+    
+    
+    <style>
+        
+         .section2 {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+			grid-template-areas:  "nav nav nav nav nav nav nav nav nav nav nav nav "
+				"title title title title title title title title title title title title "
+                "p1 p1 p1 p1 p1 p1 p1 p1 p1 p1 p1 p1"
+                "p2 p2 p2 p2 p2 p2 p2 p2 p2 p2 p2 p2"
+                "image image image image image image image image image image image image"
+                "p3 p3 p3 p3 p3 p3 p3 p3 p3 p3 p3 p3"
+                "p4 p4 p4 p4 p4 p4 p4 p4 p4 p4 p4 p4"
+                "p5 p5 p5 p5 p5 p5 p5 p5 p5 p5 p5 p5"
+                "p6 p6 p6 p6 p6 p6 p6 p6 p6 p6 p6 p6"
+                "p7 p7 p7 p7 p7 p7 p7 p7 p7 p7 p7 p7"
+                "p8 p8 p8 p8 p8 p8 p8 p8 p8 p8 p8 p8"
+                "PREVIOUS PREVIOUS PREVIOUS PREVIOUS PREVIOUS PREVIOUS NEXT NEXT NEXT NEXT NEXT NEXT"
+           "footer footer footer footer footer footer footer footer footer footer footer footer"}
+    
+        /*----CSS RESET----*/
+		*{
+			padding: 0;
+			margin: 0;
+		}
+        
+		/*---NAV----*/
+		
+        .nav { grid-area: nav;}
+			nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 100%;
+	height: 80px;
+	padding: 1px 100px;
+	color: #ffff;
+	background-color: #E49B51;
+	opacity: 30em;
+	transition: .3s;
+	box-sizing: border-box;
+	z-index: 1;
+		}
+		
+		nav.black {
+			background: #ffff;
+			height: 100px;
+			padding: 10px, 100px;
+		}
+nav ul {
+	display:flex;
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+    text-align: center;
+	
+		}
+nav ul li {
+	
+	list-style: none;
+    display: inline;
+		}
+		
+		nav ul li a {
+			line-height: 80px;
+			color: #ffff;
+			padding: 12px 30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: .3s;
+		}
+	
+		nav ul li a:focus {
+			outline: none;
+		}
+
+		.a {
+    color: #ffff;
+    text-decoration: none;
+    display: inline;
+   }
+		
+a:hover {
+    color: #424241;
+    border-bottom: none;}
+		
+        
+        /*----TITLE-----*/
+		
+		.title { grid-area: title;}
+		.title {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.6em;
+			color: #424241;
+			padding-top: 6em;
+			padding-bottom: 2em;
+            padding-left: 5em;
+            padding-right: 5em;
+			text-align: center;
+		}
+    
+        /*----TEXT---*/
+        
+        .p1 {grid-area: p1;}
+        .p1{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+    .p2 {grid-area: p2;}
+        .p2{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;    
+        }
+         .p3 {grid-area: p3;}
+        .p3{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+        .p4 {grid-area: p4;}
+        .p4{
+            font-family: 'Roboto', sans-serif;
+			color: #E49B51;
+			font-size: 1.5em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 12.5em;
+            padding-top: 1em;
+            text-align:center;     
+        }
+        
+        .p5 {grid-area: p5;}
+        .p5{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+    .p6 {grid-area: p6;}
+        .p6{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;    
+        }
+         .p7 {grid-area: p7;}
+        .p7{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+        .p8 {grid-area: p8;}
+        .p8{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+          /*----IMAGE-----*/
+        
+        .image {grid-area: image;}
+		.image {
+            padding-top: 1em;
+            padding-left: 32em;
+		}
+        
+        .NEXT {grid-area: NEXT;}
+        .NEXT{
+            padding-top: 5em;
+            padding-left: 10em;
+            padding-bottom: 5em;}
+        
+        .PREVIOUS {grid-area: PREVIOUS;}
+        .PREVIOUS{
+            padding-top: 5em;
+            padding-left: 19em;
+            padding-bottom: 5em;}
+        
+        .footer {grid-area: footer;}
+        .footer {
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E49B51;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            opacity: 80%;
+}
+        
+    </style>
+        </head>
+        
+        <body>
+            <div class="section2">
+                
+                <div class="nav">
+	<nav> 
+		
+     <ul>
+        <li><a href="index.html">HOME</a></li>
+		<li><a href="morethanaesthetics.html">AESTHETICS</a></li>
+        <li><a href="challenges.html">CHALLENGES</a></li>
+         <li><a href="newtechnologies.html">NEW TECHNOLOGIES</a>
+         </li>
+         <li><a href="conclusion.html">CONCLUSION</a></li>
+         <li><a href="bibliography.html">BIBLIOGRAPHY</a></li>
+    </ul>
+    </nav></div> 
+                
+                <div class="title">
+           <h1>Chalenges in Healthcare Design</h1>
+    </div>
+                <div class="p1">
+                    <p>There are many design problems in the healthcare sector that need to be resolved. The problems are generally large in scale, affecting unknown numbers of people with unknown levels of risk and effect. They include most persistent social and environmental issues that have emerged from multiple root causes over time. Every working industry has a human element but designing for the healthcare system means understanding that connection and interaction is the heart of healthcare. Designers and design researchers commit to healthcare in several ways. As a discipline working at the interface between users and technology and their experience throughout, design has long played an important role in the performance of new technologies and medical devices.  </p></div>
+                    
+            <div class="p2">
+                    <p>While design plays a beneficial role in human-centered care, working as a designer in the sector of healthcare can be very demanding. Designers face serious challenges while working for healthcare. One of the challenges can be healthcare professionals’ unfamiliarity with the role of design in health and the expectations they may have regarding prototypes for their sector. A challenge healthcare design has is making sure that patient’s health information is stored securely in the system. A lot of the pressure falls on the security work and solid development but, it also expands to design work, dealing with appropriate interactions for users deal with the patient’s health information.   </p></div>
+                    
+                    
+            <div class="p3">
+                    <p>New products and software in the healthcare sector can make doctors hesitant or uncomfortable, not because they don’t think it can be beneficial, but because they are very busy with the workload already, and learning a new tool and applying it into their routine and practice can be difficult. Designers need to have empathy for the medical professionals and their relationship with technology and new software. Designers need to work closely with medical professionals on user research to deliver a product has real value the user and sure they will be able to use it with ease.  </p></div>
+                    
+                    
+            <div class="p4">
+                    <p><i>“In truly wicked problems, original causes evolve into new effects, interventions have no testable solution, and the very acknowledgment of a ‘problem’ results from the earlier effects of embedded, interconnected, complicated problems.” - Peter H. Jones </i></p></div>    
+                    
+            <div class="image">
+                    <img src="images/icon2.jpg"></div>
+                    
+            <div class="p5">
+                    <p>All the new advancing technologies in healthcare and medicine do not matter without the interactions between patients and doctors. Successful healthcare systems and software assists in the interactions between patients and clinicians. One of the techniques that can help through some challenges and sometimes solve them is User Research and User Testing.  </p></div>
+                    
+            <div class="p6">
+                    <p>Designers also must work hard to keep the user needs as a priority even when they are not able to provide the input. If the medical system or new software design does not work as well for the users in the operating room as the users in the waiting room, the design has not fully succeeded. Healthcare progressively depends on new plans and ideas supporting patients, for example, helping patients understand the consequences of new treatments. Healthcare is starting to promote taking charge of patients making decisions to prevent and manage their illnesses. Patients are now trying to monitor their health and self-manage on daily basis to be more informed about they’re lifestyle and health.  Another challenge that may be difficult for designers to familiarise themselves with are healthcare rules, standards, and procedures. Furthermore, gaining medical ethical approval for design research studies can cause noticeable delays in the process. Also, handling multidisciplinary projects, such as the alliance of different types of disciplinary competence and dealing with conflicting interests among associates in the project can be a great challenge for the designers.  </p></div>
+                    
+            <div class="p7">
+                    <p>Designers sometimes find it difficult to form agreements between involved parties in the project. Overall for designers it may also be difficult to balance between being polite and assertive with when it comes to gaining approval to be present during procedures, for user research. This may be more complicated in certain situations where some care professionals have no clear idea or view of what user research and testing involve. The healthcare sector is one of the biggest and the fastest growing sectors in the world, which is a big challenge itself. Another challenge that healthcare sector design faces is the increasing number of apps and devices, which monitor and track user personal daily health. Although these designs are inventive and can be beneficial use of technology, they are not regulated by healthcare professionals and this can cause problems for the users in many ways. To develop assurance and confidence in these new app designs and ensure desired results are obtained, genuine research should be carried out with the target users to provide statistical evidence that exhibits the desired results for the target users.  </p>
+                    </div>
+                    
+                <div class="p8">
+                    <p>There are also many modern developments in healthcare, which still have a lot of room for improvement.  One of the examples being the new service where, patients are now able to sign up for an online GP service. This service gives the impression of an improved user experience, where patients do not need to go into the clinic to see their GP anymore.  Nonetheless, when the patient goes on to sign up for the service, they are discharged by the GP surgery. There are also only so many things a GP can assist a patient through an online examination. One of the ways this service may be improved is by a stronger partnership between the digital platform used by the GP services and the pharmacies. The patient being able to contact their GP through the online service and then being able to visit the pharmacy might be a more successful result. This process would save resources, and it would provide patients with a smooth and simple process, which provides good user experience. The designs need to be continuously developed to provide the best experience for all parties involved. Not only patients, but also the healthcare professionals, clinicians and pharmacists in the healthcare system. There are many challenges in healthcare sector design but, most of the challenges can be overcome with design thinking techniques, new studies and help with new design techniques, especially focused of the healthcare system design.  </p></div>
+                    
+                    <div class="NEXT">
+                 <a href="newtechnologies.html">
+                    <img src="images/NEXT.png"></a></div>
+                
+                <div class="PREVIOUS">
+                 <a href="morethanaesthetics.html">
+                    <img src="images/PREVIOUS.png"></a></div>
+                    
+                <div class="footer">
+  <p>Essay and Critical Bibliography by Wiktoria Bigaj</p>
+</div>
+                
+                </div>
+        </body>
+    </html>
+</htmllang>

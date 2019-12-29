@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<htmllang="en">
+    <html>
+<head>
+	<title> The Importance of User Experience Design in the Healthcare System</title>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap" rel="stylesheet">
+    
+    <style>
+    
+        .home {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+			grid-template-areas:  "nav nav nav nav nav nav nav nav nav nav nav nav "
+				"title title title title title title title title title title title title "
+                "title2 title2 title2 title2 title2 title2 title2 title2 title2 title2 title2 title2 "
+                "image image image image image image p1 p1 p1 p1 p1 p1"
+                "p2 p2 p2 p2 p2 p2 p2 p2 p2 p2 p2 p2"
+                "p3 p3 p3 p3 p3 p3 p3 p3 p3 p3 p3 p3"
+                "p4 p4 p4 p4 p4 p4 p4 p4 p4 p4 p4 p4"
+                "p5 p5 p5 p5 p5 p5 p5 p5 p5 p5 p5 p5"
+                "NEXT NEXT NEXT NEXT NEXT NEXT NEXT NEXT NEXT NEXT NEXT NEXT"
+        "footer footer footer footer footer footer footer footer footer footer footer footer"}
+        
+        /*----CSS RESET----*/
+		*{
+			padding: 0;
+			margin: 0;
+		}
+        
+		/*---NAV----*/
+		
+        .nav { grid-area: nav;}
+			nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 100%;
+	height: 80px;
+	padding: 1px 100px;
+	color: #ffff;
+	background-color: #E49B51;
+	opacity: 30em;
+	transition: .3s;
+	box-sizing: border-box;
+	z-index: 1;
+		}
+		
+		nav.black {
+			background: #ffff;
+			height: 100px;
+			padding: 10px, 100px;
+		}
+nav ul {
+	display:flex;
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+    text-align: center;
+	
+		}
+nav ul li {
+	
+	list-style: none;
+    display: inline;
+		}
+		
+		nav ul li a {
+			line-height: 80px;
+			color: #ffff;
+			padding: 12px 30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: .3s;
+		}
+	
+		nav ul li a:focus {
+			outline: none;
+		}
+
+		.a {
+    color: #ffff;
+    text-decoration: none;
+    display: inline;
+   }
+		
+a:hover {
+    color: #424241;
+    border-bottom: none;}
+		
+        
+        /*----TITLE-----*/
+		
+		.title { grid-area: title;}
+		.title {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.6em;
+			color: #424241;
+			padding-top: 6em;
+			padding-bottom: 2em;
+            padding-left: 5em;
+            padding-right: 5em;
+			text-align: center;
+		}
+        .title2 { grid-area: title2;}
+		.title2 {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1em;
+			color: #424241;
+			padding-top: 1em;
+			padding-bottom: 2em;
+            
+			text-align: center;
+		}
+        
+        /*----IMAGE-----*/
+        
+        .image {grid-area: image;}
+		.image {
+            padding-top: 3em;
+		}
+        
+        /*----TEXT---*/
+        
+        .p1 {grid-area: p1;}
+        .p1{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 450px;
+			padding-left: 6.5em;
+            padding-top: 10em;
+            text-align:justify;     
+        }
+        
+        .p2 {grid-area: p2;}
+        .p2{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 2em;
+            text-align:justify;     
+        }
+        
+        .p3 {grid-area: p3;}
+        .p3{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+          .p4 {grid-area: p4;}
+        .p4{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+          .p5 {grid-area: p5;}
+        .p5{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            padding-bottom: 5em;
+            text-align:justify;     
+        }
+        
+        .NEXT {grid-area: NEXT;}
+        .NEXT{
+            padding-left: 52em;
+            padding-bottom: 5em;}
+        
+        
+        .footer {grid-area: footer;}
+        .footer {
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E49B51;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            opacity: 80%;
+}
+        
+    </style>
+        </head>
+        
+        <body>
+            <div class="home">
+                
+                <div class="nav">
+	<nav> 
+		
+     <ul>
+        <li><a href="index.html">HOME</a></li>
+		<li><a href="morethanaesthetics.html">AESTHETICS</a></li>
+        <li><a href="challenges.html">CHALLENGES</a></li>
+         <li><a href="newtechnologies.html">NEW TECHNOLOGIES</a>
+         </li>
+         <li><a href="conclusion.html">CONCLUSION</a></li>
+         <li><a href="bibliography.html">BIBLIOGRAPHY</a></li>
+    </ul>
+    </nav></div> 
+                
+       <div class="title">
+           <h1>The Importance of User Experience Design in the Healthcare System</h1>
+    </div>
+                <div class="title2">
+                <h2>How Does User Experience Design Help the Healthcare System? </h2></div>
+                
+                <div class="image">
+                <img src="images/designer+doctor-1.jpg"></div>
+        
+        <div class="p1">
+                <p>User experience design plays a huge role in the healthcare world and has a great influence on people, and their wellbeing. Healthcare is one of the most hands-on, yet very technical services the public encounters. Healthcare is an intensively complicated system, which deals with at least two sources of complexity, the institutional and the personal. The increased use of electronic medical records has brought user experience design into focus for the healthcare industry. There are endless opportunities for design to have an effective impact on the healthcare sector, providing a constant challenge in helping patients and clinicians in complicated situations.  </p></div>
+                
+            <div class="p2">
+                <p>We often do not appreciate that design is crucial in healthcare. Healthcare requires use of more strict and rigorous design methods in comparison to the contemporary user experience trends, as it can have a major impact on human life.  </p></div>
+                
+            <div class="p3">
+                <p>With the serious design risks and errors in health practice, designers, researchers and anyone involved is obligated to understand the systemic problems in the field. What can seem a small oversight can lead to a consequential error; this error could have catastrophic consequences. Poor design decisions like information display errors and counterintuitive device interfaces can lead to potentially harming or killing the users. In healthcare user experience, the risks are high. When healthcare professionals are overwhelmed with content or are given the wrong information, or the right information in the wrong order, risks can develop for the person receiving treatment. There are endless reasons why user experience design is so important in healthcare, which the research will present in this essay.  </p></div>    
+                
+            <div class="p4">
+                <p>This essay will discuss the major role of user experience design in the healthcare system. The research will explore how good user experience can make positive changes in healthcare, for the clinicians working in the industry, and the patients in the system. It is very important for the clinicians to get best user experience possible, as their experience will also affect the patient’s satisfaction and most importantly their health. The research will discuss how design for healthcare is much more than just aesthetics, and the ethics behind the design for care. Healthcare is a field where information is at its most important, and as a result, systems and interfaces are information heavy. It will also focus on the problems in healthcare design and the challenges designers may face and risks they may take. As the healthcare sector employs users of all ages and demographics, the generational differences of user experience in the technologies used will be discussed. It is vital to ensure these are suitable for everyone. </p></div>
+                
+            <div class="p5">
+                <p>Focusing on the clinicians and nurses, where age can range from early twenties to mid-sixties, mistakes cannot happen in the profession. Software should not be adding more stress to the existing burden of perfection required of nurses, pharmacists, doctors, and other clinicians. The research will discuss the variety of different user needs from both patients and the staff that work in healthcare services. The research will also focus on how the user experience is changing with the evolution of the new healthcare technologies. With the new daily apps on everyday user’s phones there is many challenges that come with that sector of healthcare but also many new opportunities for development. </p></div>    
+                
+             <div class="NEXT">
+                 <a href="morethanaesthetics.html">
+                    <img src="images/NEXT.png"></a></div>
+                
+                <div class="footer">
+  <p>Essay and Critical Bibliography by Wiktoria Bigaj</p>
+</div>
+            </div>    
+        </body>
+    </html>
+</htmllang>

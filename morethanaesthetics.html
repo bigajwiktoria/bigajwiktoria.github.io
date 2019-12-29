@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<htmllang="en">
+    <html>
+<head>
+	<title> The Importance of User Experience Design in the Healthcare System</title>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap" rel="stylesheet">
+    
+    
+    <style>
+        
+        .section1 {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+			grid-template-areas:  "nav nav nav nav nav nav nav nav nav nav nav nav "
+				"title title title title title title title title title title title title "
+                "p1 p1 p1 p1 p1 p1 p1 p1 p1 p1 p1 p1"
+                "image image image image image image image image image image image image"
+                "p2 p2 p2 p2 p2 p2 p2 p2 p2 p2 p2 p2"
+                "title2 title2 title2 title2 title2 title2 title2 title2 title2 title2 title2 title2 "
+                "p3 p3 p3 p3 p3 p3 p3 p3 p3 p3 p3 p3"
+                "quote quote quote quote quote quote quote quote quote quote quote quote"
+                "p4 p4 p4 p4 p4 p4 p4 p4 p4 p4 p4 p4"
+                "title3 title3 title3 title3 title3 title3 title3 title3 title3 title3 title3 title3"
+                "p5 p5 p5 p5 p5 p5 p5 p5 p5 p5 p5 p5"
+                "p6 p6 p6 p6 p6 p6 p6 p6 p6 p6 p6 p6"
+                "PREVIOUS PREVIOUS PREVIOUS PREVIOUS PREVIOUS PREVIOUS NEXT NEXT NEXT NEXT NEXT NEXT"
+           "footer footer footer footer footer footer footer footer footer footer footer footer"}
+    
+        
+        /*----CSS RESET----*/
+		*{
+			padding: 0;
+			margin: 0;
+		}
+        
+		/*---NAV----*/
+		
+        .nav { grid-area: nav;}
+			nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 100%;
+	height: 80px;
+	padding: 1px 100px;
+	color: #ffff;
+	background-color: #E49B51;
+	opacity: 30em;
+	transition: .3s;
+	box-sizing: border-box;
+	z-index: 1;
+		}
+		
+		nav.black {
+			background: #ffff;
+			height: 100px;
+			padding: 10px, 100px;
+		}
+nav ul {
+	display:flex;
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+    text-align: center;
+	
+		}
+nav ul li {
+	
+	list-style: none;
+    display: inline;
+		}
+		
+		nav ul li a {
+			line-height: 80px;
+			color: #ffff;
+			padding: 12px 30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: .3s;
+		}
+	
+		nav ul li a:focus {
+			outline: none;
+		}
+
+		.a {
+    color: #ffff;
+    text-decoration: none;
+    display: inline;
+   }
+		
+a:hover {
+    color: #424241;
+    border-bottom: none;}
+		
+        
+        /*----TITLE-----*/
+		
+		.title { grid-area: title;}
+		.title {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.6em;
+			color: #424241;
+			padding-top: 6em;
+			padding-bottom: 2em;
+            padding-left: 5em;
+            padding-right: 5em;
+			text-align: center;
+		}
+        .title2 { grid-area: title2;}
+		.title2 {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.3em;
+			color: #E49B51;
+			padding-top: 2em;
+			padding-bottom: 0.6em;
+            padding-left: 15.5em;
+			text-align: left;
+		}
+        .title3 { grid-area: title3;}
+		.title3 {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.3em;
+			color: #E49B51;
+			padding-top: 2em;
+			padding-bottom: 0.6em;
+            padding-left: 15.5em;
+			text-align: left;
+		}
+        /*----TEXT---*/
+        
+        .p1 {grid-area: p1;}
+        .p1{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+        .p2 {grid-area: p2;}
+        .p2{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;    
+        }
+         .p3 {grid-area: p3;}
+        .p3{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+        .quote {grid-area: quote;}
+        .quote{
+            font-family: 'Roboto', sans-serif;
+			color: #E49B51;
+			font-size: 1.5em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 12.5em;
+            padding-top: 1em;
+            text-align:center;     
+        }
+        
+         .p4 {grid-area: p4;}
+        .p4{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+         .p5 {grid-area: p5;}
+        .p5{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+           .p6 {grid-area: p6;}
+        .p6{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+         /*----IMAGE-----*/
+        
+        .image {grid-area: image;}
+		.image {
+            padding-top: 1em;
+            padding-left: 32em;
+		}
+        
+        .NEXT {grid-area: NEXT;}
+        .NEXT{
+            padding-top: 5em;
+            padding-left: 10em;
+            padding-bottom: 5em;}
+        
+        .PREVIOUS {grid-area: PREVIOUS;}
+        .PREVIOUS{
+            padding-top: 5em;
+            padding-left: 19em;
+            padding-bottom: 5em;}
+        
+        .footer {grid-area: footer;}
+        .footer {
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E49B51;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            opacity: 80%;
+}
+        
+    </style>
+        </head>
+        
+        <body>
+            <div class="section1">
+                
+                <div class="nav">
+	<nav> 
+		
+     <ul>
+        <li><a href="index.html">HOME</a></li>
+		<li><a href="morethanaesthetics.html">AESTHETICS</a></li>
+        <li><a href="challenges.html">CHALLENGES</a></li>
+         <li><a href="newtechnologies.html">NEW TECHNOLOGIES</a>
+         </li>
+         <li><a href="conclusion.html">CONCLUSION</a></li>
+         <li><a href="bibliography.html">BIBLIOGRAPHY</a></li>
+    </ul>
+    </nav></div> 
+                
+                <div class="title">
+           <h1>More Than Aesthetics?</h1>
+    </div>
+                <div class="p1">
+                <p>Healthcare is a sector where poor usability and user experience isn’t just an irritation, it can lead to life threatening medical errors and traumatic outcomes. A successful healthcare design process should focus mainly on the needs of the people and not necessarily on what they want. Healthcare industry challenges both aesthetics and usability of design. In the healthcare system, the term ‘user’ may refer to a variety of different people for example, clinicians, care providers, pharmacists, patients, family members, etc. While designing for healthcare some of the key elements that should be considered are focusing on the patient and clinicians experience, in conjunction with solutions for clinicians to manage medical data and help to improve health conditions of their patients. Investigating the hospital environment and creating a user experience design based on its specific needs is a fundamental element for a successful healthcare user experience.  </p></div>
+                
+                <div class="p2">
+                <p>While designing for healthcare the aesthetics does not play the main role, it still has a big influence on the user experience.  While using any product we want to experience pleasure, to stimulate our senses. Naturally users look for products to arouse positive emotion. Aesthetic design is essential to satisfy these needs. Aesthetically pleasing design can bring up positive attitude in the users and it makes them care more about the product. Aesthetic design consists of more elements than just the looks. Aesthetic design can be broken down into four categories; vision, hearing, touch and smell. Vision is a dominant sense for the majority of people, where people are more drawn to a certain thing if it visually satisfies them. Aesthetics, user interface and visual design, are all factors of the user experience, that are essential to build a relationship with the users that engage with the product or a system. It is a necessity that user’s journey in healthcare does not only aim to produce the desired results but also, to delight the user’s senses.  </p></div>
+                
+                <div class="image">
+                 <img src="images/icon1.jpg"></div>
+                
+                <div class="title2">
+                <h3>The Halo Effect </h3></div>
+                
+                <div class="p3">
+                <p>The Halo Effect is where the aesthetic aspect of the design directly influences the approach to other aspects of the design. The halo effect is a social psychology incident that causes people to be biased in their judgments in a variety of situations. During the early stages of interaction with a product or system, aesthetics plays a major influence on users. The halo effect does not last long in the interaction but has an important role at the beginning of the interaction. Aesthetics influences users on making decisions anywhere they are given a choice. Design can assure the initial attraction but only combination of both aesthetics and usability working together in design will ensure the user will be satisfied with the experience and make the right decisions.  </p></div>
+                
+                <div class="quote">
+                    <p><i>“We all judge the book by its cover. The better the book cover the more we believe the content is better.” - Anton Nikolov </i>
+                    </p></div>
+                
+                <div class="p4">
+                <p>In healthcare the Halo Effect could be used to an advantage of the user of the system where it guides the healthcare professionals from a starting point to make the right choices in the product using aesthetics and visual design and not just the overwhelming content. Hospital administration is dependent on a large amount of software. Administration of the hundreds and thousands of patients can be overwhelming especially if the software being used is not user friendly, which could add to the daily stress of the users. Healthcare staff work long hours and odd shifts and are responsible for many lives of others. To that end, empowering them with a user experience they will be delighted by and satisfied with is not an option but should be a fundamental requirement. Healthcare staff need to feel as if they had always used these tools and be able to easily familiarise themselves with new software.  </p></div>
+                
+                 <div class="title3">
+                <h3>Electronic Medical Records (EMR) </h3></div>
+                
+                <div class="p5">
+                <p>Electronic medical records (EMR) are meant to diminish the barriers to fast service while reducing health imbalance and poor patient experiences, however, the confusing and overcomplicated interface of electronic medical records leave both patients and clinicians frustrated. All proposed software must thoroughly understand the needs of its users in order to uphold its effectiveness. A study called “4000 clicks: a productivity analysis of electronic medical records in a community hospital ED” by the Emergency Department, St Luke's University Health Network analysed clinician's productivity using electronic medical records (EMR) in a community hospital emergency department. The results show that the emergency department clinicians spend significantly more time entering data into electronic medical records than on any other activity, including direct patient care. The data that came out of the study shows that 43% of their time navigating an electronic medical record, in comparison to 28% of the time that they spend on patient care. Along with that, Emergency Department providers average out around 4000 clicks in the Electronic Medical Record during a single 10-hour shift. A specific area that needed attention is the design and functionality offered by the electronic medical records around clinical notes usage. There are many challenges with the clinical note usage. Clinical notes can be challenging to find, time consuming to enter, and have difficult to read information because of bad formatting. Improved performance in data entry and the clinical notes would allow the clinicians to dedicate more time to patient care, creating a better experience for both ends.   </p></div>
+                
+                <div class="p6">
+                Successful user experience is vital in the healthcare system. Due to the complexity of the healthcare practices there are many serious design risks and hazards. Design thinking methods need to be applied to every user experience design decision in healthcare. Although each design discipline differs in its methods and targets, the base of each design should be understanding problems of human use of a product or a system and to make effective changes that will bring delight and ease of use to the user. New systems are not always the answer as the healthcare professionals may not have enough time to learn and familiarise themselves with a whole new system but redesigning the products and system they use on daily bases to be more user friendly and to give them a better, easier experience is necessary. </div>
+                
+                <div class="NEXT">
+                 <a href="challenges.html">
+                    <img src="images/NEXT.png"></a></div>
+                
+                <div class="PREVIOUS">
+                 <a href="index.html">
+                    <img src="images/PREVIOUS.png"></a></div>
+                
+                <div class="footer">
+  <p>Essay and Critical Bibliography by Wiktoria Bigaj</p>
+</div>
+                
+            </div>
+        </body>
+    </html>
+</htmllang>
+                
+                

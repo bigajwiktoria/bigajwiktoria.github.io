@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<htmllang="en">
+    <html>
+<head>
+	<title> The Importance of User Experience Design in the Healthcare System</title>
+      <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap" rel="stylesheet">
+    
+    
+    <style>
+    
+         .bibliography {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+			grid-template-areas:  "nav nav nav nav nav nav nav nav nav nav nav nav "
+				"title title title title title title title title title title title title "
+                "links links links links links links links links links links links links"
+                "PREVIOUS PREVIOUS PREVIOUS PREVIOUS PREVIOUS PREVIOUS NEXT NEXT NEXT NEXT NEXT NEXT"
+           "footer footer footer footer footer footer footer footer footer footer footer footer"}
+        
+         /*----CSS RESET----*/
+		*{
+			padding: 0;
+			margin: 0;
+		}
+        
+		/*---NAV----*/
+		
+        .nav { grid-area: nav;}
+			nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 100%;
+	height: 80px;
+	padding: 1px 100px;
+	color: #ffff;
+	background-color: #E49B51;
+	opacity: 30em;
+	transition: .3s;
+	box-sizing: border-box;
+	z-index: 1;
+		}
+		
+		nav.black {
+			background: #ffff;
+			height: 100px;
+			padding: 10px, 100px;
+		}
+nav ul {
+	display:flex;
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+    text-align: center;
+	
+		}
+nav ul li {
+	
+	list-style: none;
+    display: inline;
+		}
+		
+		nav ul li a {
+			line-height: 80px;
+			color: #ffff;
+			padding: 12px 30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: .3s;
+		}
+	
+		nav ul li a:focus {
+			outline: none;
+		}
+
+		.a {
+    color: #ffff;
+    text-decoration: none;
+    display: inline;
+   }
+		
+a:hover {
+    color: #424241;
+    border-bottom: none;}
+		
+        
+        /*----TITLE-----*/
+		
+		.title { grid-area: title;}
+		.title {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.6em;
+			color: #424241;
+			padding-top: 6em;
+			padding-bottom: 2em;
+            padding-left: 5em;
+            padding-right: 5em;
+			text-align: center;
+		}
+        
+        /*----LINKS----*/
+        .links {grid-area: links;}
+        .links h3 {font-family: 'Roboto', sans-serif;
+			font-size: 1.5em;
+			color: #E49B51;
+			padding-top: 1em;
+			padding-bottom: 0.6em;
+            padding-left: 13.5em;
+			text-align: left;
+		}
+        
+        .links ul li{
+        font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            text-align:inherit;  
+        }
+        
+        .links a {
+            color: #E49B51;
+            border-bottom: none;
+            text-decoration: none;
+        }
+        
+        .links a:hover {
+    color: #424241;
+    border-bottom: none;}
+        
+        .links hr {
+			margin: 0 auto;
+			width: 30%;
+			height: 1.3px;
+			background-color: #DD8C43;
+            
+			}
+        
+         /*----IMAGE-----*/
+        
+        
+        .NEXT {grid-area: NEXT;}
+        .NEXT{
+            padding-top: 5em;
+            padding-left: 10em;
+            padding-bottom: 5em;}
+        
+        .PREVIOUS {grid-area: PREVIOUS;}
+        .PREVIOUS{
+            padding-top: 5em;
+            padding-left: 19em;
+            padding-bottom: 5em;}
+        
+        .footer {grid-area: footer;}
+        .footer {
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E49B51;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            opacity: 80%;
+}
+        
+    </style>
+        </head>
+        
+        <body>
+            <div class="bibliography">
+                
+                <div class="nav">
+	<nav> 
+		
+     <ul>
+        <li><a href="index.html">HOME</a></li>
+		<li><a href="morethanaesthetics.html">AESTHETICS</a></li>
+        <li><a href="challenges.html">CHALLENGES</a></li>
+         <li><a href="newtechnologies.html">NEW TECHNOLOGIES</a>
+         </li>
+         <li><a href="conclusion.html">CONCLUSION</a></li>
+         <li><a href="bibliography.html">BIBLIOGRAPHY</a></li>
+    </ul>
+    </nav></div> 
+                
+                <div class="title">
+           <h1>Bibliography</h1>
+    </div>
+                
+                <div class="links">
+                
+            <h3>Books</h3>
+                    <ul>
+                    <li>Papanek, V., 2019. Design For The Real World. Thames And Hudson Ltd. </li>
+                        
+                        <hr class="hr">
+                        
+                    <li>Jones, J., Design For Care: Innovating Healthcare Experience. Rosenfeld Media. </li></ul>
+                    
+            <h3>Articles</h3>
+                    <ul>
+                        <li>Chris Kiess. 2019. Healthcare Design Is About More Than Aesthetics - User Friendly - Medium.</li>
+                        <li>[ONLINE] Available at: <a href=" https://medium.com/s/user-friendly/why-i-design-in-healthcare-ux-eacf251d78ad">https://medium.com/s/user-friendly/why-i-design-in-healthcare-ux-eacf251d78ad</a>. [Accessed 28 November 2019]. </li>
+                    
+                       <hr class="hr">
+                        
+                        <li>Ashley Marie Taylor. 2019. Everything is UX: User Experience Design in the Real World.</li> 
+                    <li>[ONLINE] Available at: <a href="https://blog.prototypr.io/everything-is-ux-user-experience-design-in-the-real-world-34fc968de5ab">https://blog.prototypr.io/everything-is-ux-user-experience-design-in-the-real-world-34fc968de5ab</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Priyanka Gupta. 2019. 6 tips on designing for healthcare - UX Collective.</li>
+                        <li>[ONLINE] Available at: <a href="https://uxdesign.cc/6-tips-to-design-for-healthcare-ee965c4956ee">https://uxdesign.cc/6-tips-to-design-for-healthcare-ee965c4956ee</a>. [Accessed 28 November 2019]. </li>
+                        
+                      <hr class="hr">
+                        
+                        <li>Koru UX Design. 2019. Why lives depend on design decisions – UX in healthcare | Koru UX Design. </li>
+                        <li>[ONLINE] Available at: <a href="https://www.koruux.com/blog/why-lives-depend-on-design-decisions-ux-in-healthcare/">https://www.koruux.com/blog/why-lives-depend-on-design-decisions-ux-in-healthcare/</a>. [Accessed 28 November 2019]. </li>
+                       
+                        <hr class="hr">
+                        
+                        <li>Designing for Generations – A Look at UX in Healthcare | UX Booth. 2019. Designing for Generations – A Look at UX in Healthcare | UX Booth.</li>
+                        <li>[ONLINE] Available at: <a href="https://www.uxbooth.com/articles/designing-for-generations-ux-in-healthcare/">https://www.uxbooth.com/articles/designing-for-generations-ux-in-healthcare/</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>NEJM Catalyst. 2019. Health Care Design — A Final Frontier with Large-Scale Impact - NEJM Catalyst.</li>
+                        <li>[ONLINE] Available at: <a href="https://catalyst.nejm.org/health-care-design-final-frontier/">https://catalyst.nejm.org/health-care-design-final-frontier/</a>. [Accessed 28 November 2019]. </li>
+                        
+                       <hr class="hr">
+                        
+                        <li>Chris Kiess. 2019. Healthcare: The other UX design - UX Collective.</li>
+                        <li>[ONLINE] Available at: <a href="https://uxdesign.cc/healthcare-the-other-ux-design-4caf2ec2192f">https://uxdesign.cc/healthcare-the-other-ux-design-4caf2ec2192</a>. [Accessed 28 November 2019]. </li>
+                        
+<hr class="hr">
+                        
+                        <li>UX and heathcare - a new age. 2019. UX and heathcare - a new age.</li>
+                        <li>[ONLINE] Available at: <a href="https://www.webcredible.com/blog/ux-and-heathcare-new-age/">https://www.webcredible.com/blog/ux-and-heathcare-new-age/</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Anton Nikolov. 2019. Design principle: Aesthetics - UX Collective.</li>
+                        <li>[ONLINE] Available at: <a href="https://uxdesign.cc/design-principle-aesthetics-af926f8f86fe">https://uxdesign.cc/design-principle-aesthetics-af926f8f86fe</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li><a href="www.ncbi.nlm.nih.gov.">www.ncbi.nlm.nih.gov</a> 2019. No page title.</li>
+                        <li>[ONLINE] Available at: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24060331">https://www.ncbi.nlm.nih.gov/pubmed/24060331</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Bit Zesty. 2019. UX design for the medical sector - how to optimise the visual interface | Bit Zesty | London UK .</li>
+                        <li>[ONLINE] Available at: <a href="https://bitzesty.com/2017/07/21/ux-design-medical-sector-optimise-visual-interface/">https://bitzesty.com/2017/07/21/ux-design-medical-sector-optimise-visual-interface/</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Together Incredible | A circle of design influence. 2019. UX design is more than just aesthetics.</li>
+                        <li>[ONLINE] Available at: <a href="https://togetherincredible.com/ux-design-is-more-than-just-aesthetics/">https://togetherincredible.com/ux-design-is-more-than-just-aesthetics</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Myles Carey. 2019. The Challenges Of UX In Healthcare: Technology To Change Lives.</li> 
+                        <li>[ONLINE] Available at: <a href="https://medium.com/@mylesc_30694/the-challenges-of-ux-in-healthcare-technology-to-change-lives-7f5c8400956c">https://medium.com/@mylesc_30694/the-challenges-of-ux-in-healthcare-technology-to-change-lives-7f5c8400956c</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Mark Rickmeier. 2019. The challenges of design in healthcare. </li>
+                        <li>[ONLINE] Available at: <a href="https://www.beckershospitalreview.com/facilities-management/the-challenges-of-design-in-healthcare.html">https://www.beckershospitalreview.com/facilities-management/the-challenges-of-design-in-healthcare.html</a>. [Accessed 28 November 2019]. </li>
+                        
+                       <hr class="hr">
+                            
+                        <li>Consortia. 2019. The Challenges Of UX In Healthcare: Technology To Change Lives: Head of Customer Experience and Director, Blue Latitude Health | 14th June 2018 | Digital Tech Recruitment Blog | News, Tips & Advice | Consortia.</li>
+                        <li>[ONLINE] <a href="Available at: https://www.consortia.com/insights/the-challenges-of-ux-in-healthcare-technology-to-change-lives-head-of-customer-experience-and-director-blue-latitude-health/bp49/">https://www.consortia.com</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li><a href="www.ncbi.nlm.nih.gov">www.ncbi.nlm.nih.gov</a>. 2019. No page title.</li>
+                        <li>[ONLINE] Available at: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4876999/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4876999/</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Brian Eastwood. 2019. 12 Ways to Improve the Healthcare User Experience | CIO.</li>
+                        <li>[ONLINE] Available at: <a href="https://www.cio.com/article/2386948/12-ways-to-improve-the-healthcare-user-experience.html">https://www.cio.com</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Best Practices for Medical App Development Go Beyond Standard UX | UX Magazine. 2019. Best Practices for Medical App Development Go Beyond Standard UX | UX Magazine.</li>
+                        <li>[ONLINE] Available at: <a href="https://uxmag.com/articles/best-practices-for-medical-app-development-go-beyond-standard-ux">https://uxmag.com/articles</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>Chris Bateson. 2019. How To Design mHealth Apps For Better User Experience?.</li>
+                        <li>[ONLINE] Available at: <a href="https://medium.com/@chrisbateson80/how-to-design-mhealth-apps-for-better-user-experience-dbf3ffb755f1">https://medium.com/@chrisbateson80</a>. [Accessed 28 November 2019]. </li>
+                        
+                        <hr class="hr">
+                        
+                        <li>A systematic review of gamification in e-Health - ScienceDirect. 2019. A systematic review of gamification in e-Health - ScienceDirect.</li>
+                        <li>[ONLINE] Available at: <a href="https://www.sciencedirect.com/science/article/pii/S1532046417301065">https://www.sciencedirect.com</a>. [Accessed 28 November 2019]. </li>
+
+                        <hr class="hr">
+                    </ul>
+                </div>
+                
+                 <div class="NEXT">
+                 <a href="index.html">
+                    <img src="images/NEXT.png"></a></div>
+                
+                <div class="PREVIOUS">
+                 <a href="conclusion.html">
+                    <img src="images/PREVIOUS.png"></a></div>
+
+                <div class="footer">
+  <p>Essay and Critical Bibliography by Wiktoria Bigaj</p>
+</div>
+                
+                </div>
+        </body>
+    </html>
+</htmllang>

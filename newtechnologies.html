@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<htmllang="en">
+    <html>
+<head>
+	<title> The Importance of User Experience Design in the Healthcare System</title>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i&display=swap" rel="stylesheet">
+    
+    
+    <style>
+    
+        .section3 {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+			grid-template-areas:  "nav nav nav nav nav nav nav nav nav nav nav nav "
+				"title title title title title title title title title title title title "
+                "p1 p1 p1 p1 p1 p1 p1 p1 p1 p1 p1 p1"
+                "p2 p2 p2 p2 p2 p2 p2 p2 p2 p2 p2 p2"
+              "image image image image image image image image image image image image"
+                "p3 p3 p3 p3 p3 p3 p3 p3 p3 p3 p3 p3"
+                "quote quote quote quote quote quote quote quote quote quote quote quote"
+                "p4 p4 p4 p4 p4 p4 p4 p4 p4 p4 p4 p4"
+                "title3 title3 title3 title3 title3 title3 title3 title3 title3 title3 title3 title3"
+                "p5 p5 p5 p5 p5 p5 p5 p5 p5 p5 p5 p5"
+                "p6 p6 p6 p6 p6 p6 p6 p6 p6 p6 p6 p6"
+                  "p7 p7 p7 p7 p7 p7 p7 p7 p7 p7 p7 p7"
+                "p8 p8 p8 p8 p8 p8 p8 p8 p8 p8 p8 p8"
+                 "p9 p9 p9 p9 p9 p9 p9 p9 p9 p9 p9 p9"
+                "PREVIOUS PREVIOUS PREVIOUS PREVIOUS PREVIOUS PREVIOUS NEXT NEXT NEXT NEXT NEXT NEXT"
+           "footer footer footer footer footer footer footer footer footer footer footer footer"}
+        
+          /*----CSS RESET----*/
+		*{
+			padding: 0;
+			margin: 0;
+		}
+        
+		/*---NAV----*/
+		
+        .nav { grid-area: nav;}
+			nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 100%;
+	height: 80px;
+	padding: 1px 100px;
+	color: #ffff;
+	background-color: #E49B51;
+	opacity: 30em;
+	transition: .3s;
+	box-sizing: border-box;
+	z-index: 1;
+		}
+		
+		nav.black {
+			background: #ffff;
+			height: 100px;
+			padding: 10px, 100px;
+		}
+nav ul {
+	display:flex;
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+    text-align: center;
+	
+		}
+nav ul li {
+	
+	list-style: none;
+    display: inline;
+		}
+		
+		nav ul li a {
+			line-height: 80px;
+			color: #ffff;
+			padding: 12px 30px;
+			text-decoration: none;
+			text-transform: uppercase;
+			transition: .3s;
+		}
+	
+		nav ul li a:focus {
+			outline: none;
+		}
+
+		.a {
+    color: #ffff;
+    text-decoration: none;
+    display: inline;
+   }
+		
+a:hover {
+    color: #424241;
+    border-bottom: none;}
+		
+        
+        /*----TITLE-----*/
+		
+		.title { grid-area: title;}
+		.title {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.6em;
+			color: #424241;
+			padding-top: 6em;
+			padding-bottom: 2em;
+            padding-left: 11em;
+            padding-right: 7em;
+			text-align: center;
+            width: 800px;
+		}
+    
+        /*----TEXT---*/
+        
+        .p1 {grid-area: p1;}
+        .p1{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+    .p2 {grid-area: p2;}
+        .p2{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;    
+        }
+         .p3 {grid-area: p3;}
+        .p3{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+          .p4 {grid-area: p4;}
+        .p4{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+         .p5 {grid-area: p5;}
+        .p5{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+           .p6 {grid-area: p6;}
+        .p6{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+        .p7 {grid-area: p7;}
+        .p7{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        .p8 {grid-area: p8;}
+        .p8{
+            font-family: 'Roboto', sans-serif;
+			color: #E49B51;
+			font-size: 1.5em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 12.5em;
+            padding-top: 1em;
+            text-align:center;     
+        }
+        
+          .p9 {grid-area: p9;}
+        .p9{
+            font-family: 'Roboto', sans-serif;
+			color: #424241;
+			font-size: 1.3em;
+			margin: 0.5em;
+			width: 700px;
+			padding-left: 15em;
+            padding-top: 1em;
+            text-align:justify;     
+        }
+        
+           /*----IMAGE-----*/
+        
+        .image {grid-area: image;}
+		.image {
+            padding-top: 1em;
+            padding-left: 32em;
+		}
+        
+        .NEXT {grid-area: NEXT;}
+        .NEXT{
+            padding-top: 5em;
+            padding-left: 10em;
+            padding-bottom: 5em;}
+        
+        .PREVIOUS {grid-area: PREVIOUS;}
+        .PREVIOUS{
+            padding-top: 5em;
+            padding-left: 19em;
+            padding-bottom: 5em;}
+        
+        .footer {grid-area: footer;}
+        .footer {
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E49B51;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            opacity: 80%;
+}
+        
+    </style>
+        </head>
+        
+        <body>
+            <div class="section3">
+                
+                <div class="nav">
+	<nav> 
+		
+     <ul>
+        <li><a href="index.html">HOME</a></li>
+		<li><a href="morethanaesthetics.html">AESTHETICS</a></li>
+        <li><a href="challenges.html">CHALLENGES</a></li>
+         <li><a href="newtechnologies.html">NEW TECHNOLOGIES</a>
+         </li>
+         <li><a href="conclusion.html">CONCLUSION</a></li>
+         <li><a href="bibliography.html">BIBLIOGRAPHY</a></li>
+    </ul>
+    </nav></div> 
+                
+                <div class="title">
+           <h1>User Experience Sector Changing with the Evolution of New Healthcare Technologies</h1>
+    </div>
+                <div class="p1">
+                    <p>Medical industries and healthcare services now use many more digital tools for their services. Patients’ needs and values are changing, growing numbers of patients wish to have more control over their own healthcare.  </p></div>
+                
+                <div class="p2">
+                <p>Healthcare is an especially sensitive issue for many people. Most healthcare design projects embrace a common goal, to improve the delivery of healthcare, sustainably maximise the value of available resources and improve the health experience for people. The service, an app, or tool being designed is more than likely going to require user experience expertise to bring a solid understanding of the related medicine sector or science. The content of the project for which the team is designing must be understood completely. This is in conjunction with any treatments and the condition itself. Also, as the risks and challenges the user may face. Although the numbers of mobile health applications for patients’ self-care are dramatically increasing, there is still an absence of research into user commitment to digital daily self-monitoring. As stated, mobile applications and websites which can be useful for patients and doctors have already reached the surface and there are many more in progress.  </p></div>
+                
+                <div class="p3">
+                <p>The role of design is crucial in healthcare. In many cases the support provided can contribute to life or death situations. Not only patients are demanding more impact on their health but, healthcare clinicians also demand faster, better and easier to use apps to allow better care for their patients. Usability of the product designed is the most important element healthcare organisations consider when they investigate purchasing any healthcare app. </p></div>
+                
+                <div class="p4">
+                <p>Healthcare professionals need tools to help them practice their job with confidence and ease of use. They must be able to have access to the correct medical information they need quickly and easily. Designing healthcare apps for professionals consists of enormous pressure to ensure they are easy to navigate, user friendly, fast, and error free. Identifying and fixing any usability issues or errors should continue as a priority for the designers and the development teams in the healthcare sector. Healthcare professionals are looking to benefit from mobile apps development services. They are looking for the right place to deliver improved patient services.  </p></div>
+                
+                <div class="image">
+                <img src="images/icon3.jpg"></div>
+                
+                <div class="p5">
+                <p>Healthcare apps could allow healthcare professionals to quickly and practically connect with their patients and staff also through their favored devices. Presently, there are over 260,000 healthcare apps existing in the app stores. This can make it challenging to find the one that relates to the target users whether it be patients or professionals. With the amount of digital healthcare applications that are being developed on a daily basis there is a huge amount of information users need to scan through. When users go looking for help with their health, they often scan the apps for answers. The places a massive responsibility on the app developers to make sure they provide the most accurate information for the users. If there is wrong information provided it may lead to a life-threatening situation for a user.  </p></div>
+                
+                <div class="p6">
+                <p>Healthcare application development consists of a set of challenges and risks very different from mainstream applications we use every day. Security is a sector that requires a great amount of attention, assessment and conformity with regulatory standards is crucial to safety of the users. Healthcare apps should regulate with the healthcare systems to not only to have the consent from the legal and regulatory system, but also to exhibit value to other participants, such as providers, and employers.  </p></div>
+                
+                <div class="p7">
+                <p>Many industries such as marketing, e-Learning or business have taken an interest in the potential of gamification, the digital healthcare sector has also started to emerge into this idea of design. Gamification is a rather new trend that focuses on applying game mechanics to non-game contexts in order to come on board to activities that can seem boring and to inject a little fun into everyday activities gaining motivational benefits. The new, progressive features of smartphone handsets such as inbuilt, external sensors, GPS services and accelerometers have resulted to be very useful for the smooth delivery of healthcare interventions using gamification techniques and general, for everyday use. Gamification in digital healthcare has engaged a lot of attention in recent years, there is still an absence of authentic evidence in this sector. Furthermore, many of the digital health applications that combine gamification have been proven to turnout with short-term user commitment.  </p></div>
+                
+                <div class="p8">
+                <p><i>“Developing positive social relationships and promoting a feeling of integration are the key social benefits noted for gamification.” - V. Rao, P. Pandas </i></p></div>
+                
+                <div class="p9">
+                <p>The healthcare sector has seen an increased climb in the use of gamification in the health self-monitoring and management sector. The ability of use of gamification techniques to motivate, keep focused and entertain user testing has proven that certain gamification techniques in healthcare promote health behavioral changes and reduce a broad range of disorder-related symptoms. Jane McGonigal is a game designer who developed a health game called “SuperBetter" to help counterbalance the symptoms of her own post-concussion syndrome. This game empowered patients to improve from positive retaliation, awareness of social support and a willingness to interact with their stressors and other factors. A game such as SuperBetter, helps users set goals during their recovery from an injury or an illness and it invites the users to focus on living a healthier life.  </p></div>
+                
+                <div class="NEXT">
+                 <a href="conclusion.html">
+                    <img src="images/NEXT.png"></a></div>
+                
+                <div class="PREVIOUS">
+                 <a href="challenges.html">
+                    <img src="images/PREVIOUS.png"></a></div>
+                
+                <div class="footer">
+  <p>Essay and Critical Bibliography by Wiktoria Bigaj</p>
+</div>
+                
+            </div>
+        </body>
+    </html>
+</htmllang>
